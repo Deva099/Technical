@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqurey.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <section class=" navsection">
+    <header class="header">
+        <div class="header-section">
             <div class="logo">
-                <h1>Deva technical</h1>
+                <h1>Portfolio</h1>
             </div>
-            <nav>
-                <a href="http://127.0.0.1:5500/ID/index.html#"target="_blank">home</a>
-                <a href="https://www.youtube.com/channel/UCPqSOV50OEAPI0kbz8Q2WsA" target="_blank">services</a>
-                <a href="#">gallery</a>
-                <a href="#">portfolio</a>
-                <a href="#">contact</a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-link"><a href="index.html">HOME</a></li>
+                    <li class="nav-link"><a href="#">ABOUT</a></li>
+                    <li class="nav-link"><a href="#">SERVICES</a></li>
+                    <li class="nav-link"><a href="#">PORTFOLIO</a></li>
+                    <li class="nav-link"><a href="#">PAGES</a></li>
+                    <li class="nav-link"><a href="#">BLOG</a></li>
+                    <li class="nav-link"><a href="#">CONTACT</a></li>
+                </ul>
+
+                <div class="nav-icon">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-x"></i>
+                </div>
             </nav>
-        </section>
-        <main>
-             <div class="leftside">
-                <h3>HELLO</h3>
-                <h1>I am deva </h1>
-                <h2>web developer and app developer</h2>
-                <a href="#" class="btn1">hire me</a>
-                <a href="#" class="btn2">contact me</a>
-             </div>
-             <div class="rightside">
-
-
-                <img src="/ID/images/zoom.png" alt="imageS">
-
-             </div>
-        </main>
+        </div>
     </header>
+    <!-- ==========================Home-start================================== -->
+    <section class="home-section">
+        <div class="home-inner">
+            <div class="home-container">
+                <div class="home-left">
+                    <div class="home-content">
+                        <h3 class="home-text">HELLO</h3>
+                        <h2 class="home-text">I AM DEVA CODE</h2>
+                        <h5 class="home-text">senior wordpress developer</h5>
+                        <div class="home-btn">
+                            <a class="primary_btn btn-bg1" href="#"><span>Hire Me</span></a>
+                            <a class="primary_btn btn-bg2" href="#"><span>Get CV</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <div class="home_right_img">
+                        <img class="img-1" src="images/home-right.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================++home end++=================================== -->
+    <!-- =========================++About-start++============================================ -->
+
+     <!-- =========================++About-end++================================ -->
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
